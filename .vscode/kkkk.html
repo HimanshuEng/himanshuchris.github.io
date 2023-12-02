@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="him.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy creating
+            responsive and user-friendly websites. In addition to web development, I have a strong background in
+            problem-solving and collaboration.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <ul>
+                    <li>Git &amp; GitHub</li>
+                    <li>VS Code</li>
+                    <li>npm</li>
+                    <li>Webpack</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Designed and developed a personal portfolio website to showcase my skills and projects.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Task Manager App</h3>
+            <p>Created a task management application using React.js to help users organize their tasks efficiently.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>Developed a responsive e-commerce website with features such as product listings, shopping cart, and user authentication.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h3>Bachelor's Degree in Computer Science</h3>
+            <p>University Name, Graduation Year</p>
+        </div>
+
+        <!-- Add more education entries as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at your.email@example.com</p>
+        <!-- Add a contact form if desired -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <div class="custom-cursor">
+        <script>
+            const customCursor = document.querySelector('.custom-cursor');
+        
+            document.addEventListener('mousemove', (e) => {
+                const { clientX: x, clientY: y } = e;
+                customCursor.style.left = `${x}px`;
+                customCursor.style.top = `${y}px`;
+            });
+        </script>
+        
+    </div>
+</body>
+</html>
